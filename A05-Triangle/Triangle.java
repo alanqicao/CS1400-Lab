@@ -68,7 +68,7 @@ public class Triangle{
    public boolean isRight(){
    
       double square1 = side1*side1;
-      double square2 =side2*side2;
+      double square2 = side2*side2;
       double square3 = side3*side3;
       
       if((square1==square2+square3)||(square2==square1+square3)||(square3==square1+square2)){
